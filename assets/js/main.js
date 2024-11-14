@@ -541,7 +541,7 @@
 	var chooseOne = new Swiper('.choose-1-active', {
 		direction: 'vertical',
 		slidesPerView: 3,
-		spaceBetween: 10,	 
+		spaceBetween: 30,	 
 		loop: true,
 		autoplay: {
 			delay: 3000,
