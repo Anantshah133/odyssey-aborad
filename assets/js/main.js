@@ -818,7 +818,7 @@
 			animateIn: 'fadeIn',
 			active: true,
 			smartSpeed: 1000,
-			autoplay: 6000,
+			// autoplay: 6000,
 			navText: [ '<span class"icon-5"></span>', '<span class"icon-6"></span>' ],
 			responsive:{
 				0:{

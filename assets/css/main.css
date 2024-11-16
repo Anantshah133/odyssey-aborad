@@ -4658,12 +4658,16 @@ body.out .mouse-pointer {
 
 .booking-area {
   padding-left: 100px;
-  margin-bottom: -170px;
+  /* margin-bottom: -170px; */
 }
 
 .booking-area p{
   color: var(--white);
   margin-bottom: 25px;
+}
+
+.faq-box-area p {
+  margin-top: 25px;
 }
 
 .faq-section .shape-1 {
