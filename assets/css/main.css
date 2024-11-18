@@ -127,6 +127,10 @@ h6, i[class^=flaticon-], .body__overlay {
 .different {
   color: #0f0f0f;
 }
+.special-form-text {
+  color: white;
+  font-weight: 600;
+}
 .special-text {
   color: #1c263a;
   font-weight: 600;
@@ -3234,7 +3238,7 @@ svg.radial-progress {
 
 .video-section .play-content .one {
   font-size: 36px;
-  color: var(--theme-color);
+  color: var(--black);
 }
 
 .video-section .play-content .two {
@@ -3242,9 +3246,9 @@ svg.radial-progress {
   color: var(--black);
 }
 
-.video-section .play-content h5:last-child{
+/* .video-section .play-content h5:last-child{
   color: var(--black);
-}
+} */
 
 .video-section .shape-1 {
   position: absolute;
@@ -4563,7 +4567,7 @@ body.out .mouse-pointer {
 }
 
 .booking-form--wrapper {
-  padding: 80px 94px 140px 94px;
+  padding: 80px 94px 90px 94px;
   background: var(--theme-color);
   border-radius: 10px;
   background-repeat: no-repeat;
@@ -4663,7 +4667,7 @@ body.out .mouse-pointer {
 
 .booking-area p{
   color: var(--white);
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
 }
 
 .faq-box-area p {
@@ -4720,7 +4724,7 @@ body.out .mouse-pointer {
 }
 
 .booking-form--wrapper {
-  padding: 80px 70px 140px 70px;
+  padding: 80px 70px 80px 70px;
 }
               
 }
@@ -4732,7 +4736,7 @@ body.out .mouse-pointer {
 }
 
 .booking-form--wrapper {
-  padding: 60px 65px 140px 65px;
+  padding: 60px 65px 60px 65px;
 }
 
 .faq-box-area .accordion-item {
