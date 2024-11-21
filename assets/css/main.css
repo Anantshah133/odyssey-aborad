@@ -7321,7 +7321,7 @@ gap: 25px;
 
 .visa-services-4-box {
   position: relative;
-  height: 440px;
+  height: 520px;
   padding: 15px;
   border: 1px dashed #B0B0B0;
   border-radius: 10px;
@@ -7337,8 +7337,13 @@ gap: 25px;
   position: absolute;
   bottom: 0;
 }
+.visa-services-4-box .content p {
+  font-size: 14px;
+  line-height: 20px;
+}
 
 .visa-services-4-box .content h4 {
+  font-size: 26px;
   margin-bottom: 10px;
 }
 
