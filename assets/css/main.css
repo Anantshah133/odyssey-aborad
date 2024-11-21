@@ -2657,7 +2657,7 @@ Animate wobble-vertical
 /*----------------------------------------*/
 
 .banner-section {
-  padding: 200px 0;
+  padding: 160px 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2702,8 +2702,8 @@ Animate wobble-vertical
 }
 
 .banner-title {
-  font-size: 100px;
-  line-height: 110px;
+  font-size: 60px;
+  line-height: 70px;
   color: var(--white);
   margin: 30px 0;
 }
@@ -2712,7 +2712,7 @@ Animate wobble-vertical
   font-size: 60px;
   color: var(--white);
   position: absolute;
-  top: 40px;
+  top: 30px;
   right: 20px;
   transition: all 900ms ease;
 }
@@ -5824,18 +5824,18 @@ transform: skewX(-25deg);
 
 .work-3-process-main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
 }
 
 .work-3-process-box {
-  max-width: 260px;
+  max-width: 300px;
 }
 
 .work-3-process-box img {
-  width: 214px;
-  height: 214px;
+  width: 256px;
+  height: 256px;
   border-radius: 50%;
 }
 
@@ -5844,8 +5844,8 @@ transform: skewX(-25deg);
   position: absolute;
   top: -19px;
   left: 2px;
-  width: 254px;
-  height: 254px;
+  width: 294px;
+  height: 294px;
   border: 1px dashed var(--gray);
   border-radius: 50%;
   animation: spin 30s linear infinite;
@@ -5873,7 +5873,7 @@ transform: skewX(-25deg);
   line-height: 34px;
 }
 
-.work-3-process-box:before {
+/* .work-3-process-box:before {
   content: "";
   position: absolute;
   top: 0;
@@ -5881,10 +5881,10 @@ transform: skewX(-25deg);
   width: 1px;
   height: 372px;
   background: #5D666F33
-}
+} */
 
-.work-3-process-box:after {
-  content: "\e93f";
+/* .work-3-process-box:after {
+  content: "\e93f"
   font-family: 'icomoon';
   position: absolute;
   top: 99px;
@@ -5895,7 +5895,7 @@ transform: skewX(-25deg);
   font-size: 10px;
   color: var(--white);
   animation: wobble-vertical 6s linear infinite;
-}
+} */
 
 .work-3-process-main .work-3-process-box:last-child:before,
 .work-3-process-main .work-3-process-box:last-child:after {
@@ -7984,6 +7984,12 @@ gap: 25px;
 /*  ABOUT PAGE CSS START
 /*----------------------------------------*/
 
+.about-text {
+  font-size: 18px;
+  color: #1c263a;
+  font-family: var(--cormorant-font);
+  margin-bottom: 20px;
+}
 .breadcrumb__area {
   background-repeat: no-repeat;
   background-position: center;
@@ -8196,7 +8202,7 @@ gap: 25px;
 .about-page-right .icon-box {
   width: 284px;
   height: 284px;
-  background: var(--theme-color);
+  background: var(--color-1);
   display: flex;
   justify-content: center;
   align-items: center;
