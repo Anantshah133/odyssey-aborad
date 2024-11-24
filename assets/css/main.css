@@ -7347,6 +7347,10 @@ gap: 25px;
   margin-bottom: 10px;
 }
 
+.service .coaching-box-area {
+  height: 750px;
+}
+
 .visa-services-4-box .sev-btn {
   margin-top: 10px;
   display: flex;
