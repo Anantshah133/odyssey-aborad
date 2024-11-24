@@ -142,6 +142,9 @@ h6, i[class^=flaticon-], .body__overlay {
 /*---------------------------------
     TYPOGRAPHY CSS START
 ---------------------------------*/
+.rubik-font {
+  font-family: var(--rubik-font) !important;
+}
 body {
   font-family: var(--rubik-font);
   font-size: 16px;
@@ -9102,7 +9105,7 @@ section.welcome-look h2 {
 
 .contact-page-section .contact-icon-box .icon-box {
   font-size: 40px;
-  background: var(--theme-color);
+  background: var(--color-1);
   color: var(--white);
   padding: 20px;
 }

@@ -21,6 +21,7 @@
    <link rel="stylesheet" href="assets/css/icomoon.css">
    <link rel="stylesheet" href="assets/css/spacing.css">
    <link rel="stylesheet" href="assets/css/flatpickr.css">
+   <link rel="stylesheet" href="assets/css/sweetalert2.min.css">
    <link rel="stylesheet" href="assets/css/nice-select.css">
    <link rel="stylesheet" href="assets/css/owl.css">
    <link rel="stylesheet" href="assets/css/main.css">
@@ -85,7 +86,7 @@
                <div class="offcanvas__top mb-10 d-flex justify-content-between align-items-center">
                   <div class="offcanvas__logo">
                      <a href="index.html">
-                        <img src="assets/imgs/logo/logo-white.svg" alt="Header Logo">
+                        <img src="./assets/imgs/footer-logo.png" alt="Header Logo" width="180px">
                      </a>
                   </div>
                   <div class="offcanvas__close">
@@ -95,7 +96,7 @@
                   </div>
                </div>
                <div class="offcanvas__search mb-25">
-                  <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea numquam velit dolore quos deleniti saepe dolores, perspiciatis porro fuga quas provident voluptatum esse quae nulla atque reprehenderit magnam, dolor exercitationem.</p>
+                  <p class="text-white">With 6 years of experience in the industry, we understand the challenges students face when planning their education abroad. Many come to us with a lot of issues, but what sets us apart is our commitment to providing the best support to help students achieve their dreams. We know how important this journey is for them, and we’re here to make it as smooth as possible!</p>
                </div>
                <div class="mobile-menu fix mb-40"></div>
                <div class="offcanvas__contact mb-20">
@@ -115,7 +116,7 @@
                            <i class="far fa-phone"></i>
                         </div>
                         <div class="offcanvas__contact-text">
-                           <a href="tel:+00112233665">+00112233665</a>
+                           <a href="tel:+918758011013">8758011013</a>
                         </div>
                      </li>
                      <li class="d-flex align-items-center">
@@ -123,7 +124,7 @@
                            <i class="fal fa-envelope"></i>
                         </div>
                         <div class="offcanvas__contact-text">
-                           <a href="tel:+012-345-6789"><span class="mailto:support@example.com">support@example.com</span></a>
+                           <a href="tel:+012-345-6789"><span class="mailto:support@example.com">info@odysseyabroad.com</span></a>
                         </div>
                      </li>
                   </ul>
@@ -198,10 +199,10 @@
                                     <li>
                                        <a href="about.html">About</a>
                                     </li>
-                                    <li class="active">
+                                    <li>
                                        <a href="services.html">Services</a>
                                     </li>
-                                    <li>
+                                    <li class="active">
                                        <a href="contact.html">Contact</a>
                                     </li>
                                  </ul>
@@ -251,7 +252,7 @@
    <div class="page-wrapper"> <!-- page-wrapper start-->
 
    <!-- Page title area start -->
-   <div class="breadcrumb__area bg-color-2 p-relative" data-background="assets/imgs/page-title/page-title-9.jpg">
+   <div class="breadcrumb__area bg-color-2 p-relative" data-background="assets/imgs/page-title/page-title-8.jpg">
       <div class="shape-bg" data-background="assets/imgs/page-title/pt-bg.png"></div>
       <div class="shape-1" data-background="assets/imgs/page-title/pt-shape.png"></div>
       <div class="container">
@@ -262,221 +263,203 @@
                      <nav>
                         <ul>
                            <li><span><a href="index.html">Home</a></span></li>
-                           <li><span>Services</span></li>
+                           <li><span>Contact</span></li>
                         </ul>
                      </nav>
                   </div>
-                  <h2 class="breadcrumb__title">Services</h2>
+                  <h2 class="breadcrumb__title">Contact Us</h2>
                </div>
             </div>
          </div>
       </div>
    </div>
-   <!-- Page title area end -->
+<!-- Page title area end -->
 
-   <!-- why choose us start -->
-   <section class="coaching-section p-relative service">
-      <div class="bg-shape" data-background="./assets/imgs/coaching/coaching-bg-1.png"></div>     
+
+   <section class="contact-page-section section-space">
       <div class="container">
-         <div class="title-box text-center wow mb-60 fadeInDown p-relative" data-wow-delay="500ms">
-            <h5 class="section-sub-title"><span>|</span> Odyssey Abroad <span>|</span></h5>
-            <h2 class="section-title">Our Pro Services</h2>
+         <div class="row">
+            <div class="col-lg-6">
+               <div class="title-box mb-30 wow fadeInRight" data-wow-delay="1500ms">
+                  <h2 class="section-title mb-20">Study Abroad Consultation</h2>
+                  <p>Thinking of studying abroad? We’re here to guide you every step of the way. Whether you need help with choosing the right program, visa assistance, or general information, our team is ready to assist you.</p>
+               </div>
+               <div class="contact-form">
+                  <form id="form">
+                     <div class="row g-0">
+                        <div class="col-lg-6">
+                           <div class="contact-input">
+                              <input id="name" name="name" type="text" placeholder="Enter Name*" required>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="contact-input">
+                              <input name="email" type="email" placeholder="Enter Email*" required>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="contact-input">
+                              <input type="text" placeholder="Enter country name">
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="contact-input">
+                              <input id="phone" name="phone" type="tel" placeholder="Enter Phone*" required>
+                           </div>
+                        </div>
+                        <div class="col-lg-12">
+                           <div class="contact-input">
+                              <textarea name="message" placeholder="Enter Message"></textarea>
+                           </div>
+                        </div>
+                        <div class="col-lg-12">
+                           <div class="btn-area pt-50 pl-10">
+                              <button type="submit" class="primary-btn-1 btn-hover">
+                                 Send Message
+                                 <span style="top: 147.172px; left: 108.5px;"></span>
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+            <div class="col-lg-6">
+               <div class="contact-page-info-area pl-80">
+                  <div class="title-box mb-30 wow fadeInRight" data-wow-delay="1500ms">
+                     <h2 class="section-title mb-20">Get in Touch</h2>
+                     <p>For personalized advice on universities, courses, scholarships, visa applications, or any other study abroad-related queries, reach out to our team.</p>
+                  </div>
+                  <div class="contact-icon-box">
+                     <div class="icon-box">
+                        <i class="icon-36"></i>
+                     </div>
+                     <div class="content">
+                        <h4>Have any question?</h4>
+                        <span>Phone : </span>
+                        <a href="tel:+918799228648">+91 87992 28648</a>
+                     </div>
+                  </div>
+                  <div class="contact-icon-box">
+                     <div class="icon-box">
+                        <i class="icon-1"></i>
+                     </div>
+                     <div class="content">
+                        <h4>Write email</h4>
+                        <span>Email: </span>
+                        <a href="mailto:info@odysseyabroad.com">info@odysseyabroad.com</a>
+                     </div>
+                  </div>
+                  <div class="contact-icon-box">
+                     <div class="icon-box">
+                        <i class="icon-2"></i>
+                     </div>
+                     <div class="content">
+                        <h4>Visit anytime</h4>
+                        <span>Address: </span>
+                        <a href="https://maps.app.goo.gl/yQLW4ejK23EDobHs5" target="_blank">2118 Thornridge Cir. Syracuse, Connecticut 35624</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
          </div>
-         <div class="swiper coaching-1-active">
-            <div class="swiper-wrapper p-relative">
-                  <!-- block -->
-               <div class="swiper-slide"> 
-                  <div class="coaching-box-area">
-                     <figure class="w-img image p-relative">
-                        <img src="./assets/imgs/coaching/coaching-1.png" alt="coaching-image">
-                     </figure>
-                     <div class="content text-center">
-                        <h4><a href="javascript: void(0);">Profile Assessment</a></h4>
-                        <p>Tumhare Doctor ki tarah, we conduct an in-depth analysis of your profile to evaluate your strengths, academic achievements, and potential areas of improvement. Our assessment considers your educational background, goals, and field of interest, offering personalized recommendations to strengthen your profile before applying. This service helps you confidently embark on your journey, knowing your application reflects your true potential.</p>
-                     </div>
-                  </div>
-               </div>
-                  <!-- block -->
-               <div class="swiper-slide"> 
-                  <div class="coaching-box-area">
-                     <figure class="w-img image p-relative">
-                        <img src="./assets/imgs/coaching/coaching-2.png" alt="coaching-image">
-                     </figure>
-                     <div class="content text-center">
-                        <h4><a href="javascript: void(0);">University Recommendation</a></h4>
-                        <p>Finding the right university can be overwhelming, but we are here to make it simple. Based on your "pasandida" choices, academic strengths, and career goals, we offer carefully curated university recommendations from top institutions worldwide. Our experts consider course offerings, location, and career support, ensuring your university matches your aspirations. With us, you can trust that you're selecting the best option for your unique journey.</p>
-                     </div>
-                  </div>
-               </div>
-                  <!-- block -->
-               <div class="swiper-slide"> 
-                  <div class="coaching-box-area">
-                     <figure class="w-img image p-relative">
-                        <img src="./assets/imgs/coaching/coaching-3.png" alt="coaching-image">
-                     </figure>
-                     <div class="content text-center">
-                        <h4><a href="javascript: void(0);">Application Process</a></h4>
-                        <p>
-                           Our dedicated team assists you through the entire application process, from organizing documents to submitting them on time. We help you craft a compelling application that highlights your achievements and makes an impact. Our guidance ensures your application is professional, complete, and ready to stand out, saving you from any last-minute hassles or oversights.
-                        </p>
-                     </div>
-                  </div>
-               </div>
-                  <!-- block -->
-               <div class="swiper-slide"> 
-                  <div class="coaching-box-area">
-                     <figure class="w-img image p-relative">
-                        <img src="./assets/imgs/coaching/coaching-1.png" alt="coaching-image">
-                     </figure>
-                     <div class="content text-center">
-                        <h4><a href="javascript: void(0);"> Visa Process</a></h4>
-                        <p>Navigating the "visa ka tension" can be stressful, but we simplify it for you. Our team walks you through the visa requirements, from filling out forms to preparing for the visa interview. We keep track of deadlines, required documents, and any updates on visa policies, so you can focus on preparing for your journey. With our guidance, your visa process becomes smooth and straightforward.</p>
-
-                     </div>
-                  </div>
-               </div>
-                  <!-- block -->
-               <div class="swiper-slide"> 
-                  <div class="coaching-box-area">
-                     <figure class="w-img image p-relative">
-                        <img src="./assets/imgs/coaching/coaching-2.png" alt="coaching-image">
-                     </figure>
-                     <div class="content text-center">
-                        <h4><a href="javascript: void(0);">Pre-Post Landing Support</a></h4>
-                        <p>We’re here to support you every step of the way, both before and after you reach your study destination. Our Pre-Post Landing Support includes guidance on packing essentials, travel arrangements, and settling into your new home. We also provide resources for navigating cultural differences, setting up bank accounts, and accessing essential services, so you feel comfortable and prepared from day one.</p>
-                     </div>
-                  </div>
-               </div>
-                  <!-- block -->
-               <div class="swiper-slide"> 
-                  <div class="coaching-box-area">
-                     <figure class="w-img image p-relative">
-                        <img src="./assets/imgs/coaching/coaching-3.png" alt="coaching-image">
-                     </figure>
-                     <div class="content text-center">
-                        <h4><a href="javascript: void(0);">Strategies for Excellence</a></h4>
-                        <p>
-                           Achieving academic success abroad requires more than just hard work—it requires smart strategies. Our Strategies for Excellence program offers tailored guidance to help you excel in your studies and make the most of your international education. From study techniques to networking and career planning, we equip you with the tools needed to maximize your potential and create a path toward a successful future.
-                        </p>
-                     </div>
-                  </div>
-               </div>
-                  <!-- block -->
-               <div class="swiper-slide"> 
-                  <div class="coaching-box-area">
-                     <figure class="w-img image p-relative">
-                        <img src="./assets/imgs/coaching/coaching-1.png" alt="coaching-image">
-                     </figure>
-                     <div class="content text-center">
-                        <h4><a href="javascript: void(0);">We’re Always Here for You</a></h4>
-                        <p>Whether you’re preparing to leave or you’ve already landed, we’re with you for the long haul. Our post-landing support means we’re not just here to help you get there—we’re here to guide you through every step after you arrive. We’re just a call away for anything, from visa queries to career guidance.</p>
-
-                     </div>
-                  </div>
-               </div>
-                  <!-- block -->
-               <div class="swiper-slide"> 
-                  <div class="coaching-box-area">
-                     <figure class="w-img image p-relative">
-                        <img src="./assets/imgs/coaching/coaching-2.png" alt="coaching-image">
-                     </figure>
-                     <div class="content text-center">
-                        <h4><a href="javascript: void(0);">Peace of Mind</a></h4>
-                        <p>When you choose us, you can relax. From the moment you step into our office or reach out online, we take care of everything. You can focus on your dreams while we handle the details. We make sure you’re always prepared and confident as you step forward into your new future.
-                        </p>
-                     </div>
-                  </div>
-               </div>
-            </div>   
-         </div>
-      </div>
-      <!-- If we need navigation buttons -->
-      <div class="coaching-slider-navigation">
-         <button class="coaching-1-prev"><i class="fas fa-chevron-left"></i></button>
-         <button class="coaching-1-next"><i class="fas fa-chevron-right"></i></button>
       </div>
    </section>
-   <!-- why choose us end -->
 
+    <!-- vision-mission area start -->
+    <section class="work-3-process-section p-relative section-space pt-md-0">
+      <div class="container">
+         <div class="title-box text-center mb-60 wow fadeInDown p-relative" data-wow-delay="500ms">
+            <h5 class="section-sub-title"><span>|</span> Visit Our Office <span>|</span></h5>
+            <h2 class="section-title">We’d love to meet you in person and <br> discuss your study abroad goals.</h2>
+         </div>
+         <h5 class="text-center rubik-font fw-normal">Visit Us At : <span class="special-text">1234 Education Lane, Suite 100 City, State, ZIP Code</span> </h5>
+      </div>
+   </section>
+   <!-- vision-mission area end -->
+
+   <div class="contact-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4216.433331900906!2d90.36996032419312!3d23.83718617432321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1693682874850!5m2!1sen!2sbd"></iframe>
+   </div>
 
    </div><!-- page-wrapper -->
  </main>
      
- <!-- Footer area start -->
- <footer>
-   <div class="footer-main p-relative bg-color-3 fix">
-      <div class="shape-1" data-background="./assets/imgs/footer/footer-shape-1.png"></div>
-      <div class="container">
-         <div class="footer-upper pt-80 pb-50">
-            <div class="row">
-               <div class="col-lg-3">
-                  <div class="footer-widget-1 p-relative">
-                     <a href="index.html"><img src="./assets/imgs/footer-logo.png" alt="logo"></a>
-                     <p class="mt-40 mb-40">Thinking of studying abroad? We’re here to guide you every step of the way. Connect us on Odyssey Abroad.</p>
-                     <div class="footer-contact">
-                        <ul class="contact-info mb-25">
-                           <li><a href="tel:+88123456987231"><i class="icon-36"></i>+91 87580 11013</a></li>
-                           <li><a href="mailto:info@odysseyabroad.com"><i class="icon-74"></i>info@odysseyabroad.com</a></li>
-                           <li><a href="https://maps.app.goo.gl/yQLW4ejK23EDobHs5" target="_blank"><i class="icon-35"></i>380 St Kilda Road, Melbourne</a></li>
-                        </ul>
-                        <ul class="socials-info">
-                           <li><a href="#"><i class="icon-41"></i></a></li>
-                           <li><a href="#"><i class="icon-42"></i></a></li>
-                           <li><a href="#"><i class="icon-43"></i></a></li>
-                           <li><a href="#"><i class="icon-44"></i></a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="footer-widget-2 pl-10 p-relative">
-                     <h5 class="fw-title">Explore</h5>
-                     <ul>
-                        <li><a href="about.html">About Company</a></li>
-                        <li><a href="team.html">Meet The Team</a></li>
-                        <li><a href="blog.html">News & Media</a></li>
-                        <li><a href="coaching.html">Our Project</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="footer-widget-2 p-relative">
-                     <h5 class="fw-title">Visa</h5>
-                     <ul>
-                        <li><a href="visa.html">Work Visa</a></li>
-                        <li><a href="visa.html">Students Visa</a></li>
-                        <li><a href="visa.html">Business Visa</a></li>
-                        <li><a href="visa.html">Travel Visa</a></li>
-                        <li><a href="visa.html">Family Visa</a></li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="footer-widget-3 p-relative">
-                     <h5 class="fw-title">Open Time</h5>
-                     <div class="time-area">
-                        <div class="one mb-30">
-                           <h5>Monday - Saturday: </h5>
-                           <span>09.00 am to 06.00 pm (IST)</span>
-                        </div>
-                        <div class="tow">
-                           <h5>Sunday: </h5>
-                           <span>Open by Appointment Only (Please call or email us to schedule an appointment)</span>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>  
-         </div> 
-         <div class="footer-bottom pt-20 pb-20 text-center p-relative">
-            <h6>© 2024 <a href="index.html">Odyssey</a>, All Rights Reserved</h6>
-         </div>        
-      </div>
-   </div>
-</footer>
-<!-- Footer area end -->
 
+   <!-- Footer area start -->
+   <footer>
+      <div class="footer-main p-relative bg-color-3 fix">
+         <div class="shape-1" data-background="./assets/imgs/footer/footer-shape-1.png"></div>
+         <div class="container">
+            <div class="footer-upper pt-80 pb-50">
+               <div class="row">
+                  <div class="col-lg-3">
+                     <div class="footer-widget-1 p-relative">
+                        <a href="index.html"><img src="./assets/imgs/footer-logo.png" alt="logo"></a>
+                        <p class="mt-40 mb-40">Thinking of studying abroad? We’re here to guide you every step of the way. Connect us on Odyssey Abroad.</p>
+                        <div class="footer-contact">
+                           <ul class="contact-info mb-25">
+                              <li><a href="tel:+88123456987231"><i class="icon-36"></i>+91 87580 11013</a></li>
+                              <li><a href="mailto:info@odysseyabroad.com"><i class="icon-74"></i>info@odysseyabroad.com</a></li>
+                              <li><a href="https://maps.app.goo.gl/yQLW4ejK23EDobHs5" target="_blank"><i class="icon-35"></i>380 St Kilda Road, Melbourne</a></li>
+                           </ul>
+                           <ul class="socials-info">
+                              <li><a href="#"><i class="icon-41"></i></a></li>
+                              <li><a href="#"><i class="icon-42"></i></a></li>
+                              <li><a href="#"><i class="icon-43"></i></a></li>
+                              <li><a href="#"><i class="icon-44"></i></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-3">
+                     <div class="footer-widget-2 pl-10 p-relative">
+                        <h5 class="fw-title">Explore</h5>
+                        <ul>
+                           <li><a href="about.html">About Company</a></li>
+                           <li><a href="team.html">Meet The Team</a></li>
+                           <li><a href="blog.html">News & Media</a></li>
+                           <li><a href="coaching.html">Our Project</a></li>
+                           <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-3">
+                     <div class="footer-widget-2 p-relative">
+                        <h5 class="fw-title">Visa</h5>
+                        <ul>
+                           <li><a href="visa.html">Work Visa</a></li>
+                           <li><a href="visa.html">Students Visa</a></li>
+                           <li><a href="visa.html">Business Visa</a></li>
+                           <li><a href="visa.html">Travel Visa</a></li>
+                           <li><a href="visa.html">Family Visa</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-3">
+                     <div class="footer-widget-3 p-relative">
+                        <h5 class="fw-title">Open Time</h5>
+                        <div class="time-area">
+                           <div class="one mb-30">
+                              <h5>Monday - Saturday: </h5>
+                              <span>09.00 am to 06.00 pm (IST)</span>
+                           </div>
+                           <div class="tow">
+                              <h5>Sunday: </h5>
+                              <span>Open by Appointment Only (Please call or email us to schedule an appointment)</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>  
+            </div> 
+            <div class="footer-bottom pt-20 pb-20 text-center p-relative">
+               <h6>© 2024 <a href="index.html">Odyssey</a>, All Rights Reserved</h6>
+            </div>        
+         </div>
+      </div>
+   </footer>
+   <!-- Footer area end -->
    
 
 
@@ -495,6 +478,12 @@
    <script src="assets/js/isotope.js"></script>
    <script src="assets/js/jquery.nice-select.min.js"></script>
    <script src="assets/js/flatpickr.min.js"></script>
+   <script src="assets/js/sweetalert2.all.min.js"></script>
+   <script src="assets/js/email.min.js"></script>
+   <script>
+      emailjs.init('OSMhTkiX_rHIJgfeF')
+   </script>
+   <script src="assets/js/email-validation.js"></script>
    <script src="assets/js/main.js"></script>
 
 </body>
