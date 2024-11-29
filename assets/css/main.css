@@ -125,7 +125,9 @@ h6, i[class^=flaticon-], .body__overlay {
 }
 
 .different {
-  color: #0f0f0f;
+  line-height: 100px;
+  background-color: var(--color-1);
+  color: white;
 }
 .special-form-text {
   color: white;
@@ -416,6 +418,10 @@ textarea {
 
 .bg-color-1{
   background: #F2EDEB;
+}
+
+.bg-color-purple{
+  background: var(--color-1);
 }
 
 .bg-color-2{
@@ -873,7 +879,7 @@ textarea {
 
 .section-sub-title{
   font-family: var(--rubik-font);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 26px;
   font-weight: 400;
   text-transform: capitalize;
@@ -2700,7 +2706,7 @@ Animate wobble-vertical
   padding: 15px 30px;
   background: var(--color-1);
   display: inline-block;
-  font-size: 14px;
+  font-size: 18px;
   color: var(--white);
 }
 
@@ -3114,7 +3120,7 @@ svg.radial-progress {
 .text-slider-box {
   display: flex;
   position: relative;
-  animation: aspro-scroller-reverse 60s linear infinite;
+  animation: aspro-scroller-reverse 10s linear infinite;
   will-change: transform;
   white-space: nowrap;
   gap: 55px;
@@ -3126,7 +3132,7 @@ svg.radial-progress {
   justify-content: start;
   align-items: center;
   gap: 55px;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .text-slider-box .slide-box:nth-child(even) h1{
@@ -3198,7 +3204,6 @@ svg.radial-progress {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  margin-left: 255px;
 }
 
 .video-section .play-btn a{
