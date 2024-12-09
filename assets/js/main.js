@@ -752,33 +752,31 @@
 	========================================*/
 
 	/* mouse cursor */
-	document.getElementsByTagName("body")[0].addEventListener("mousemove", function(n) {
-		e.style.left = n.clientX + "px", 
-		e.style.top = n.clientY + "px"
-    });
-    var 
-        e = document.getElementById("mouse-pointer");
-        
-	$(document).mousemove(function(e){
+	// document.getElementsByTagName("body")[0].addEventListener("mousemove", function(n) {
+	// 	e.style.left = n.clientX + "px", 
+	// 	e.style.top = n.clientY + "px"
+    // });
+    // var e = document.getElementById("mouse-pointer");
+	// $(document).mousemove(function(e){
 		
-		$(".visa-1-activ")
-		.on("mouseenter", function() {	 
-			$('.mouse-pointer').addClass("black")	  
-		})
-		.on("mouseleave", function() {	  
-			$('.mouse-pointer').removeClass("black")	  
-		})
+	// 	$(".visa-1-activ")
+	// 	.on("mouseenter", function() {	 
+	// 		$('.mouse-pointer').addClass("black")	  
+	// 	})
+	// 	.on("mouseleave", function() {	  
+	// 		$('.mouse-pointer').removeClass("black")	  
+	// 	})
 		
-		$(".service-carousel,.country-1-active")
-		.on("mouseenter", function() {	 
-			$('.mouse-pointer').addClass("large")	  
-		})
-		.on("mouseleave", function() {	  
-			$('.mouse-pointer').removeClass("large")	  
-		})
+	// 	$(".service-carousel,.country-1-active")
+	// 	.on("mouseenter", function() {	 
+	// 		$('.mouse-pointer').addClass("large")	  
+	// 	})
+	// 	.on("mouseleave", function() {	  
+	// 		$('.mouse-pointer').removeClass("large")	  
+	// 	})
 		
 		
-	});
+	// });
 
 	/*======================================
 	  Datepickr & Flatpicker
@@ -889,6 +887,3 @@
 	
 
 })(jQuery);
-
-
-
