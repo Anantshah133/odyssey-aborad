@@ -4180,18 +4180,18 @@ body.out .mouse-pointer {
 /*----------------------------------------*/
 
 .benefits-left-area .icon-box {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 80px auto;
   gap: 20px;
-  align-items: center;
+  align-items: center; */
   padding: 25px 30px;
   border: 1px solid rgba(93, 102, 111, 0.15);
 }
 
 .benefits-left-area .icon-area {
-  font-size: 35px;
-  width: 74px;
-  height: 74px;
+  font-size: 30px;
+  width: 75px;
+  height: 75px;
   padding: 20px;
   background: rgba(246, 246, 246, 1);
   border-radius: 50%;
@@ -4230,6 +4230,7 @@ body.out .mouse-pointer {
 }
 
 .benefits-left-area .icon-box p {
+  font-size: 15px;
   font-family: var(--rubik-font);
 }
 
@@ -8017,7 +8018,7 @@ gap: 25px;
 }
 
 .breadcrumb__area .breadcrumb__wrapper {
-  padding: 260px 0 210px 0;
+  padding: 170px 0;
 }
 
 .breadcrumb__area .shape-bg {
@@ -8075,17 +8076,15 @@ gap: 25px;
 
 
 @media only screen and (max-width: 1399px){  
-
   .breadcrumb__area .breadcrumb__wrapper {
-    padding: 160px 0 110px 0;
+    padding: 120 0;
 }
                                           
 }
 
 @media only screen and (max-width: 991px){  
-
   .breadcrumb__area .breadcrumb__wrapper {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 .breadcrumb__title {
@@ -9741,4 +9740,22 @@ h4.title-2.mt-50.mb-50{
 .country-details-content .title-1 {
   font-size: 36px;
   line-height: 46px;
+}
+
+.country-title {
+  position: relative;
+  padding-left: 40px;
+}
+.country-title::before {
+  left: 3px;
+  font-size: 20px;
+  color: var(--theme-color);
+  position: absolute;
+  content: "\f061";
+  font-family: "fontawesome";
+}
+
+.country-description {
+  font-size: 18px;
+  line-height: 36px;
 }
