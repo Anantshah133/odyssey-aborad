@@ -1973,8 +1973,11 @@ Animate wobble-vertical
   color: var(--theme-color);
 }
 
-.main-menu ul li.active > a {
+.main-menu ul > li.active > a {
   color: var(--theme-color);
+}
+.main-menu ul li .submenu li.active > a {
+  color: var(--theme-color) !important;
 }
 
 .main-menu ul li:hover > a::after {
