@@ -10001,7 +10001,97 @@ section.welcome-look h2 {
 
 .gradient-divider {
   border: none;
-  height: 5px; /* Adjust the thickness of the divider */
+  height: 5px;
   background: linear-gradient(to right, #f18f01, #5a007f); /* Replace colors with your choice */
-  border-radius: 2px; /* Add rounded edges if desired */
+  border-radius: 2px;
+}
+
+.section-description {
+  font-family: var(--rubik-font);
+  color: #5D666F;
+  text-align: justify;
+}
+
+.advantages-list {
+  line-height: 38px;
+  font-size: 18px;
+  color: #222;
+}
+
+.advantages-list li {
+  margin-bottom: 10px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.advantages-list li::before {
+  content: "\e931";
+  font-family: 'icomoon';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 18px;
+  color: var(--theme-color);
+}
+
+/* ---------- education system ------------ */
+
+.education-system-section .subsection-title {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #333;
+}
+
+.education-system-section .section-description {
+  font-family: var(--rubik-font);
+  color: #5D666F;
+  text-align: justify;
+}
+
+.education-system-section .education-list {
+  line-height: 30px;
+  color: #222;
+}
+
+.education-system-section .education-list li {
+  margin-bottom: 25px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.education-system-section .education-list li::before {
+  content: "\e931";
+  font-family: 'icomoon';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 18px;
+  color: var(--theme-color);
+}
+
+.intakes-table-wrapper {
+  margin-top: 30px;
+}
+
+.intakes-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.intakes-table th, .intakes-table td {
+  border: 1px solid #bbb;
+  padding: 10px 15px;
+}
+
+.intakes-table th {
+  background-color: var(--theme-color);
+  color: white;
+  font-weight: 600;
+}
+
+.intakes-table td {
+  color: #222;
 }
