@@ -10036,7 +10036,7 @@ section.welcome-look h2 {
 
 /* ---------- education system ------------ */
 
-.education-system-section .subsection-title {
+.subsection-title {
   font-size: 24px;
   margin-top: 20px;
   color: #333;
@@ -10087,11 +10087,64 @@ section.welcome-look h2 {
 }
 
 .intakes-table th {
-  background-color: var(--theme-color);
+  background-color: var(--color-1);
   color: white;
   font-weight: 600;
 }
 
 .intakes-table td {
   color: #222;
+}
+
+/* .university-group .section-description {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.6;
+} */
+
+.universities-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.universities-table th,
+.universities-table td {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+}
+
+.universities-table th {
+  background-color: var(--color-1);
+  color: #fff;
+  font-weight: bold;
+}
+
+.universities-table td {
+  color: #333;
+}
+
+.education-list {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.education-list li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.education-list li::before {
+  content: "\e93f";
+  font-family: 'icomoon';
+  position: absolute;
+  left: 0;
+  color: var(--theme-color);
 }
