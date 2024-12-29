@@ -10148,3 +10148,37 @@ section.welcome-look h2 {
   left: 0;
   color: var(--theme-color);
 }
+
+.sticky-widget {
+  position: sticky;
+  top: 100px;
+}
+
+.contact-form-widget .form-title {
+  color: var(--color-1);
+}
+.contact-form .form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.contact-form .form-group input {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  font-size: 16px;
+  color: var(--gray);
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px; 
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.contact-form .form-group input:focus {
+  border-color: var(--theme-color);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
