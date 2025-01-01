@@ -150,6 +150,7 @@ i[class^=flaticon-],
 .special-text {
   color: #1c263a;
   font-weight: 600;
+  transition: all 0.3s linear;
 }
 
 .special-text:hover {

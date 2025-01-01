@@ -265,7 +265,7 @@
 	visa slider Js used
 	========================================*/
 	var visaOne = new Swiper('.visa-2-active', {
-		slidesPerView: 4,
+		slidesPerView: 3,
 		spaceBetween: 24,
 		loop: true,
 		roundLengths: true,
@@ -277,13 +277,7 @@
 			prevEl: ".visa-1-button-prev",
 		},
 		breakpoints: {
-			'1400': {
-				slidesPerView: 4,
-			},
 			'1200': {
-				slidesPerView: 4,
-			},
-			'992': {
 				slidesPerView: 3,
 			},
 			'768': {
