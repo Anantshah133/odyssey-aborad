@@ -62,6 +62,7 @@
 		$(".offcanvas__overlay").removeClass("overlay-open");
 	});
 	$(".sidebar__toggle").on("click", function () {
+		console.log("Hellooooooo....");
 		$(".offcanvas__info").addClass("info-open");
 		$(".offcanvas__overlay").addClass("overlay-open");
 	});
