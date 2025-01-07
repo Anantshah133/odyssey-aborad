@@ -2267,6 +2267,7 @@ Animate wobble-vertical
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--white);
 }
 
 .header-info ul li i {
@@ -2316,8 +2317,11 @@ Animate wobble-vertical
   font-size: 22px;
 }
 
-.header-one .socials-info .two li:hover {
-  color: var(--theme-color);
+.header-one .socials-info .two li a{
+  transition: all 0s linear !important;
+}
+.header-one .socials-info .two li:hover a {
+  color: var(--black);
 }
 
 .header-area {
@@ -6806,13 +6810,20 @@ body.out .mouse-pointer {
   color: var(--white);
 }
 
+.header-top-4 .socials-info-1 ul li a {
+  transition: all 0s;
+}
+
+.header-top-4 .socials-info-1 ul li:hover a {
+  color: var(--black);
+}
+
 .header-top-4 .header-info ul {
   gap: 36px;
 }
 
 .header-top-4 .header-info ul li {
   color: var(--white);
-  ;
 }
 
 .header-four .main-menu ul li {
