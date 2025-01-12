@@ -2317,9 +2317,10 @@ Animate wobble-vertical
   font-size: 22px;
 }
 
-.header-one .socials-info .two li a{
+.header-one .socials-info .two li a {
   transition: all 0s linear !important;
 }
+
 .header-one .socials-info .two li:hover a {
   color: var(--black);
 }
@@ -10006,7 +10007,7 @@ section.welcome-look h2 {
   font-family: "fontawesome";
 }
 
-.country-description {
+.country-description, .test-description {
   font-size: 18px;
   line-height: 36px;
 }
@@ -10014,7 +10015,8 @@ section.welcome-look h2 {
 .gradient-divider {
   border: none;
   height: 5px;
-  background: linear-gradient(to right, #f18f01, #5a007f); /* Replace colors with your choice */
+  background: linear-gradient(to right, #f18f01, #5a007f);
+  /* Replace colors with your choice */
   border-radius: 2px;
 }
 
@@ -10093,7 +10095,8 @@ section.welcome-look h2 {
   font-size: 18px;
 }
 
-.intakes-table th, .intakes-table td {
+.intakes-table th,
+.intakes-table td {
   border: 1px solid #bbb;
   padding: 10px 15px;
 }
@@ -10108,7 +10111,8 @@ section.welcome-look h2 {
   color: #222;
 }
 
-.universities-table, .reusable-table {
+.universities-table,
+.reusable-table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
@@ -10118,19 +10122,22 @@ section.welcome-look h2 {
 }
 
 .universities-table th,
-.universities-table td, .reusable-table th,
+.universities-table td,
+.reusable-table th,
 .reusable-table td {
   padding: 10px 15px;
   border: 1px solid #ddd;
 }
 
-.universities-table th, .reusable-table th {
+.universities-table th,
+.reusable-table th {
   background-color: var(--color-1);
   color: #fff;
   font-weight: bold;
 }
 
-.universities-table td, .reusable-table td {
+.universities-table td,
+.reusable-table td {
   color: #333;
 }
 
@@ -10160,6 +10167,7 @@ section.welcome-look h2 {
 .contact-form-widget .form-title {
   color: var(--color-1);
 }
+
 .contact-form .form-group label {
   display: block;
   font-size: 14px;
@@ -10176,7 +10184,7 @@ section.welcome-look h2 {
   color: var(--gray);
   padding-left: 20px;
   padding-right: 20px;
-  border-radius: 5px; 
+  border-radius: 5px;
   border: 1px solid #ddd;
   outline: none;
 }
@@ -10192,6 +10200,7 @@ section.welcome-look h2 {
   line-height: 38px;
   color: #555;
 }
+
 .usa-education-section .education-list li::before {
   content: "\e931";
   font-family: 'icomoon';
@@ -10200,3 +10209,107 @@ section.welcome-look h2 {
   top: 5px;
   color: var(--theme-color);
 }
+
+/* Styles for test prep Section */
+
+.highlighted-text {
+  background-color: var(--color-1);
+  color: white;
+  font-weight: bold;
+  transition: 0.3s all ease-in-out;
+}
+.highlighted-text:hover {
+  color: var(--theme-color);
+}
+
+.content-section {
+  margin-bottom: 50px;
+}
+
+.list-styled > li {
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 12px;
+}
+
+.list-styled > li::before {
+  content: "\e903";
+  font-size: 14px;
+  font-family: 'icomoon';
+  position: absolute;
+  left: 0;
+  color: var(--theme-color);
+}
+
+.nested-list, .nested-list-2, .nested-list-3 {
+  margin-top: 15px;
+}
+
+.nested-list > li, .nested-list-2 > li, .nested-list-3 > li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+.nested-list > li::before {
+  content: "\e931";
+  font-size: 14px;
+  font-family: 'icomoon';
+  position: absolute;
+  left: 0;
+  color: var(--theme-color);
+}
+.nested-list-2 > li::before {
+  content: "\e93f";
+  font-size: 14px;
+  font-family: 'icomoon';
+  position: absolute;
+  left: 0;
+  color: var(--theme-color);
+}
+
+.nested-list-3 > li {
+  padding-left: 35px;
+}
+.nested-list-3 > li::before {
+  content: "\e903";
+  font-size: 12px;
+  font-family: 'icomoon';
+  position: absolute;
+  left: 0;
+  color: var(--theme-color);
+}
+
+.test-preparation-section .title {
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.test-preparation-section .title-1 {
+  font-size: 32px;
+  line-height: 46px;
+  margin-bottom: 20px;
+}
+
+
+.benefits-list > li {
+  margin-bottom: 10px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.benefits-list > li::before {
+  content: "\e931";
+  font-family: 'icomoon';
+  position: absolute;
+  left: 0;
+  font-size: 20px;
+  color: var(--theme-color);
+}
+
+.test-preparation-section aside {
+  background: #F2F2F2;
+  padding: 30px 20px;
+}
+
+/* -------------------------- */
