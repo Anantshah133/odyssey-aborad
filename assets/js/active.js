@@ -1,3 +1,14 @@
+function getWhatsAppButton(){
+    const whatsappButton = document.createElement("a");
+                
+    whatsappButton.href = "https://wa.me/918799228648?text=Hello%2C%20I%20want%20to%20inquire%20about%20going%20abroad.";
+    whatsappButton.className = "whatsapp-float-btn";
+    whatsappButton.target = "_blank";
+    whatsappButton.innerHTML = '<i class="fab fa-whatsapp"></i>';
+
+    document.body.appendChild(whatsappButton);
+}
+
 function setActiveClass(){
     const currentPage = window.location.pathname.split("/").pop();
 

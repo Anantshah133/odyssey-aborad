@@ -519,6 +519,7 @@
         document.addEventListener("DOMContentLoaded", () => {
             loadComponent("header", "./component/header.html", () => {
                 setActiveClass();
+            getWhatsAppButton();
                 const script = document.createElement("script");
                 script.src = "./assets/js/main.js";
                 document.body.appendChild(script);
