@@ -71,7 +71,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap'); */
 
 
 .main-menu ul li.has-dropdown>a::after,
@@ -115,7 +115,7 @@ i[class^=flaticon-],
 
 :root {
   --cormorant-font: 'Cormorant', serif;
-  --rubik-font: 'Rubik', sans-serif;
+  --rubik-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   /* colors */
   --theme-color: #f18f01;
   --color-1: #5a007f;
