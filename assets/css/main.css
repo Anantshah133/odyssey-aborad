@@ -1213,8 +1213,8 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 /*----------------------------------------*/
 .backtotop-wrap {
   position: fixed;
-  bottom: 35px;
-  right: 30px;
+  bottom: 30px;
+  right: 100px;
   height: 44px;
   width: 44px;
   cursor: pointer;
@@ -1233,6 +1233,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
   justify-content: center;
   background-color: #fff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  display: none;
 }
 
 .backtotop-wrap:hover {
@@ -4249,7 +4250,7 @@ body.out .mouse-pointer {
 }
 
 /*----------------------------------------*/
-/*   COACHING SECTION CSS START
+/*   SECTION CSS START
 /*----------------------------------------*/
 
 
@@ -4311,7 +4312,7 @@ body.out .mouse-pointer {
   color: var(--theme-color);
 }
 
-.coaching-box-area .image img {
+/* .coaching-box-area .image img {
   clip-path: polygon(0 0, 100% 0, 100% 67%, 50% 100%, 0 67%);
 }
 
@@ -4330,7 +4331,7 @@ body.out .mouse-pointer {
 
 .coaching-box-area:hover .image:before {
   background: var(--theme-color);
-}
+} */
 
 .coaching-slider-navigation {
   display: flex;
@@ -4394,13 +4395,13 @@ body.out .mouse-pointer {
 
 }
 
-@media only screen and (max-width: 1399px) {
+/* @media only screen and (max-width: 1399px) {
 
   .coaching-box-area .image:before {
     height: 200px;
   }
 
-}
+} */
 
 @media only screen and (max-width: 1199px) {
 
@@ -10315,7 +10316,7 @@ section.welcome-look h2 {
 /* WhatsApp Floating Button */
 .whatsapp-float-btn {
   position: fixed;
-  left: 30px;
+  right: 30px;
   bottom: 30px;
   background-color: #25D366;
   color: #fff;
