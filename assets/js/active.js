@@ -9,6 +9,17 @@ function getWhatsAppButton(){
     document.body.appendChild(whatsappButton);
 }
 
+function getCallButton(){
+    const callButton = document.createElement("a");
+
+    callButton.href = "tel:+918799228648";
+    callButton.className = "call-float-btn d-lg-none";
+    callButton.target = "_blank";
+    callButton.innerHTML = `<i class="fas fa-phone"></i>`;
+
+    document.body.appendChild(callButton);
+}
+
 function setActiveClass(){
     const currentPage = window.location.pathname.split("/").pop();
 
