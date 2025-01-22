@@ -95,22 +95,22 @@
                         </div>
                         <div class="col-lg-6">
                            <div class="contact-input">
-                              <input name="email" type="email" placeholder="Enter Email*" required>
+                              <input name="mail" id="mail" type="email" placeholder="Enter Email*" required>
                            </div>
                         </div>
                         <div class="col-lg-6">
                            <div class="contact-input">
-                              <input type="text" placeholder="Enter country name">
+                              <input type="text" placeholder="Enter country name" id="country" name="country">
                            </div>
                         </div>
                         <div class="col-lg-6">
                            <div class="contact-input">
-                              <input id="phone" name="phone" type="tel" placeholder="Enter Phone*" required>
+                              <input id="contact" name="contact" type="tel" placeholder="Enter Phone*" required>
                            </div>
                         </div>
                         <div class="col-lg-12">
                            <div class="contact-input">
-                              <textarea name="message" placeholder="Enter Message"></textarea>
+                              <textarea name="message" placeholder="Enter Message" id="message" name="message"></textarea>
                            </div>
                         </div>
                         <div class="col-lg-12">
@@ -209,8 +209,8 @@
    <script src="assets/js/jquery.nice-select.min.js"></script>
    <script src="assets/js/flatpickr.min.js"></script>
    <script src="assets/js/sweetalert2.all.min.js"></script>
-   <script src="assets/js/email.min.js"></script>
-   <script src="assets/js/email-validation.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+   <script src="./assets/js/sendmail.js"></script>
    <script src="./assets/js/component.js"></script>
    <script src="./assets/js/active.js"></script>
    <script>
@@ -218,7 +218,8 @@
          loadComponent("header", "./component/header.html", ()=>{
             setActiveClass();
             getWhatsAppButton();
-      getCallButton();
+            getCallButton();
+
             const script = document.createElement("script");
             script.src = "./assets/js/main.js";
             document.body.appendChild(script);

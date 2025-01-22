@@ -10415,4 +10415,8 @@ section.welcome-look h2 {
   }
 }
 
+.swal2-confirm.swal2-styled {
+  background-color: var(--color-1) !important;
+  color: white !important;
+}
 /* -------------------------- */

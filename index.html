@@ -787,47 +787,48 @@
                <div class="booking-area">
                   <div class="booking-form--wrapper text-center" data-background="./assets/imgs/resources/booking-map.png">
                      <form id="form">
-                         <div class="booking-form--inner">                             
+                        <div class="booking-form--inner">
                            <h2>Book An Appointment </h2>
-                             <div class="row">
-                                 <div class="col-12 mb-3">
-                                     <div class="form-group">
-                                       <input id="name" type="text" name="name" class="form-control" placeholder="Full Name*" required>
-                                     </div>
+                           <div class="row">
+                              <div class="col-12 mb-3">
+                                 <div class="form-group">
+                                    <input id="name" type="text" name="name" class="form-control" placeholder="Full Name*" required>
                                  </div>
-
-                                 <div class="col-12 mb-3">
-                                     <div class="form-group">
-                                         <input id="phone" type="tel" name="phone" class="form-control" placeholder="Contact Number*" required>
-                                     </div>
+                              </div>
+            
+                              <div class="col-12 mb-3">
+                                 <div class="form-group">
+                                    <input id="contact" type="tel" name="contact" class="form-control" placeholder="Contact Number*"
+                                       required>
                                  </div>
-
-                                 <div class="col-12 mb-3">
-                                    <div class="form-group p-relative">
-                                        <input type="email" name="email" class="form-control" placeholder="Email*">
-                                    </div>
+                              </div>
+            
+                              <div class="col-12 mb-3">
+                                 <div class="form-group p-relative">
+                                    <input type="email" id="mail" name="mail" class="form-control" placeholder="Email*" required>
                                  </div>
-
-                                 <div class="col-12 mb-3">
-                                    <div class="common form-group">
-                                       <input type="text" name="country" class="form-control" placeholder="Countries">
-                                    </div>
+                              </div>
+            
+                              <div class="col-12 mb-3">
+                                 <div class="common form-group">
+                                    <input type="text" id="country" name="country" class="form-control" placeholder="Countries">
                                  </div>
-
-                                 <div class="col-md-12 col-lg-12 mt-20">
-                                     <div class="booking--button text-center">
-                                         <input class="btn" type="submit" value="Submit" name="submit">
-                                     </div>
+                              </div>
+            
+                              <div class="col-md-12 col-lg-12 mt-20">
+                                 <div class="booking--button text-center">
+                                    <button class="btn" type="submit" name="submit">Submit</button>
                                  </div>
-
-                                 <p class="text mt-30">
-                                    <input type="checkbox">
-                                    By submitting, you agree to receive additional communications from <span class="special-form-text">odysseyabroad.com</span>
-                                 </p>
-                             </div>
-                         </div>
+                              </div>
+            
+                              <p class="text mt-30">
+                                 <input type="checkbox" required>
+                                 By submitting, you agree to receive additional communications from <span class="special-form-text">odysseyabroad.com</span>
+                              </p>
+                           </div>
+                        </div>
                      </form>
-                 </div>
+                  </div>
                </div>
             </div>
          </div>
@@ -941,7 +942,8 @@
    <script src="./assets/js/jquery.nice-select.min.js"></script>
    <script src="./assets/js/flatpickr.min.js"></script>
    <script src="./assets/js/sweetalert2.all.min.js"></script>
-   <script src="./assets/js/email-validation.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+   <script src="./assets/js/sendmail.js"></script>
    <script src="./assets/js/main.js"></script>
    <script src="./assets/js/active.js"></script>
    <script>
