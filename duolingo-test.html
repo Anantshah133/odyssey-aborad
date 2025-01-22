@@ -408,24 +408,25 @@
                         <aside class="sticky-widget shadow">
                             <div class="contact-form-widget p-relative">
                                 <h4 class="form-title mb-30">Want to Know More ?</h4>
-                                <form action="#" class="contact-form">
+                                <form action="#" class="contact-form" id="form">
                                     <div class="form-group mb-20">
-                                        <label for="full-name">Full Name *</label>
-                                        <input type="text" id="full-name" name="full-name"
-                                            placeholder="Enter your full name" required>
+                                        <label for="name">Full Name *</label>
+                                        <input type="text" id="name" name="name" placeholder="Enter your full name"
+                                            required>
                                     </div>
                                     <div class="form-group mb-20">
-                                        <label for="email">Email *</label>
-                                        <input type="email" id="email" name="email" placeholder="Enter your email"
+                                        <label for="mail">Email *</label>
+                                        <input type="email" id="mail" name="mail" placeholder="Enter your email"
                                             required>
                                     </div>
                                     <div class="form-group mb-50">
-                                        <label for="phone">Phone No *</label>
-                                        <input type="tel" id="phone" name="phone"
+                                        <label for="contact">Phone No *</label>
+                                        <input type="tel" id="contact" name="contact"
                                             placeholder="Enter your contact number" required>
                                     </div>
+                                    <input type="hidden" id="country" name="country" value="DUOLINGO">
                                     <button type="submit" class="primary-btn-1 btn-hover w-100 justify-content-center">
-                                        Enquire For This Country
+                                        Enquire For This Course
                                         <span></span>
                                     </button>
                                 </form>
@@ -457,14 +458,16 @@
     <script src="./assets/js/jquery.nice-select.min.js"></script>
     <script src="./assets/js/flatpickr.min.js"></script>
     <script src="./assets/js/sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="./assets/js/sendmail.js"></script>
     <script src="./assets/js/component.js"></script>
     <script src="./assets/js/active.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             loadComponent("header", "./component/header.html", () => {
                 setActiveClass();
-            getWhatsAppButton();
-      getCallButton();
+                getWhatsAppButton();
+                getCallButton();
                 const script = document.createElement("script");
                 script.src = "./assets/js/main.js";
                 document.body.appendChild(script);
