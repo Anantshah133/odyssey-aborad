@@ -1,14 +1,26 @@
+
 (function ($) {
 	"use strict";
 	var windowOn = $(window);
-
+	
 	/*======================================
 	Preloader activation
 	========================================*/
-	$(window).on('load', function (event) {
-		$('.preloader').delay(200).fadeOut(500);
-	});
+	// $(window).on('load', function (event) {
+	// 	console.log("The loader is fading out....");
+	// 	$('.preloader').delay(200).fadeOut(500);
+	// });
 
+	$(document).ready(function () {
+		const hidePreloader = function () {
+			$('.preloader').fadeOut(500);
+		};
+		// Attempt to hide after window load
+		$(window).on('load', hidePreloader);
+		// Fallback to ensure it hides even if 'load' fails
+		setTimeout(hidePreloader, 1000);
+	});
+	
 	/*======================================
 	button hover
 	========================================*/
