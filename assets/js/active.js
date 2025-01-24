@@ -20,6 +20,11 @@ function getCallButton(){
     document.body.appendChild(callButton);
 }
 
+function getYear(){
+    let yearElement = document.getElementById("year");
+    yearElement.innerHTML = new Date().getFullYear();
+}
+
 function setActiveClass(){
     const currentPage = window.location.pathname.split("/").pop();
 

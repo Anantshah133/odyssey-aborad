@@ -438,7 +438,9 @@
                 script.src = "./assets/js/main.js";
                 document.body.appendChild(script);
             });
-            loadComponent("footer", "./component/footer.html", () => { });
+            loadComponent("footer", "./component/footer.html", ()=>{
+            getYear();
+         });
         })
     </script>
 
