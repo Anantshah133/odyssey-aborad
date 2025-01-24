@@ -217,14 +217,14 @@
          loadComponent("header", "./component/header.html", ()=>{
             setActiveClass();
             getWhatsAppButton();
-      getCallButton();
+            getCallButton();
             const script = document.createElement("script");
             script.src = "./assets/js/main.js";
             document.body.appendChild(script);
          });
          loadComponent("footer", "./component/footer.html", ()=>{
-                getYear();
-            });
+            getYear();
+         });
       })
    </script>
 </body>
